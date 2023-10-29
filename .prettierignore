@@ -1,7 +1,2 @@
 **/.git
-**/node_modules
-**/dist
 **/.github
-did-clique/
-**/generated/
-graphql.schema.json
