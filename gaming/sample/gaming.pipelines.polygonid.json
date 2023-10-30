@@ -54,7 +54,7 @@
           "valueType": "decimal",
           "value": "0.00",
           "name": "Single player",
-          "slug": "co-operative"
+          "slug": "single-player"
         },
         "massively-multiplayer-online-mmo": {
           "valueType": "decimal",
@@ -149,7 +149,6 @@
         "valueType": "decimal"
       },
       "Jun": {
-        "name": "Jun",
         "value": "0.00",
         "valueType": "decimal"
       },
@@ -174,7 +173,6 @@
         "valueType": "decimal"
       },
       "Dec": {
-        "name": "Dec",
         "value": "638.00",
         "valueType": "decimal"
       },
