@@ -1,8 +1,10 @@
 {
   "credential": {
     "sumHoursPlayedInTop10GameSteam": {
+      "valueType": "decimal",
+      "value": "3.50",
+      "level": "Casual",
       "displayType": "summary",
-      "valueType": "object",
       "items": [
         {
           "name": "Casual",
@@ -10,10 +12,6 @@
           "valueType": "decimal"
         }
       ],
-      "value": {
-        "hours": "3.50",
-        "level": "Casual"
-      },
       "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
     "sumHoursPlayedInIGDBCategoryPieChartSteam": {
