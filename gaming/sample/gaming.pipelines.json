@@ -27,14 +27,17 @@
           "items": [
             {
               "value": "7.80",
+              "valueType": "decimal",
               "name": "Single player"
             },
             {
               "value": "3.60",
+              "valueType": "decimal",
               "name": "Multiplayer"
             },
             {
               "value": "1.70",
+              "valueType": "decimal",
               "name": "Co-operative"
             }
           ]
@@ -47,34 +50,42 @@
           "items": [
             {
               "value": "5.75",
+              "valueType": "decimal",
               "name": "Simulator"
             },
             {
               "value": "3.85",
+              "valueType": "decimal",
               "name": "Indie"
             },
             {
               "value": "3.75",
+              "valueType": "decimal",
               "name": "Adventure"
             },
             {
               "value": "2.15",
+              "valueType": "decimal",
               "name": "Arcade"
             },
             {
               "value": "2.05",
+              "valueType": "decimal",
               "name": "Shooter"
             },
             {
               "value": "2.05",
+              "valueType": "decimal",
               "name": "Role-playing (RPG)"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "Strategy"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "Turn-based strategy (TBS)"
             }
           ]
@@ -87,34 +98,42 @@
           "items": [
             {
               "value": "3.75",
+              "valueType": "decimal",
               "name": "Science fiction"
             },
             {
               "value": "3.75",
+              "valueType": "decimal",
               "name": "Action"
             },
             {
               "value": "3.75",
+              "valueType": "decimal",
               "name": "Sandbox"
             },
             {
               "value": "2.15",
+              "valueType": "decimal",
               "name": "Business"
             },
             {
               "value": "2.05",
+              "valueType": "decimal",
               "name": "Open world"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "Fantasy"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "Historical"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "4X (explore, expand, exploit, and exterminate)"
             }
           ]
@@ -127,22 +146,27 @@
           "items": [
             {
               "value": "3.75",
+              "valueType": "decimal",
               "name": "Third person"
             },
             {
               "value": "2.15",
+              "valueType": "decimal",
               "name": "Text"
             },
             {
               "value": "2.15",
+              "valueType": "decimal",
               "name": "Side view"
             },
             {
               "value": "2.05",
+              "valueType": "decimal",
               "name": "First person"
             },
             {
               "value": "1.90",
+              "valueType": "decimal",
               "name": "Bird view / Isometric"
             }
           ]
@@ -157,9 +181,25 @@
       "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c"
     },
     "avgMonthSpendingSteam": {
-      "value": "62.99875",
-      "valueType": "decimal",
-      "displayType": "string",
+      "displayType": "summary",
+      "valueType": "array",
+      "items": [
+        {
+          "value": "7.80",
+          "valueType": "decimal",
+          "name": "Jan"
+        },
+        {
+          "value": "3.60",
+          "valueType": "decimal",
+          "name": "Mar"
+        },
+        {
+          "value": "1.70",
+          "valueType": "decimal",
+          "name": "Dec"
+        }
+      ],
       "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c"
     }
   }
