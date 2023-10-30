@@ -1,206 +1,228 @@
 {
   "credential": {
-    "sumHoursPlayedByTop10GameSteam": {
-      "valueType": "object",
-      "value": {
-        "hours": "31.917",
-        "level": "Casual"
-      },
-      "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c",
+    "sumHoursPlayedInTop10GameSteam": {
       "displayType": "summary",
+      "valueType": "object",
       "items": [
         {
           "name": "Casual",
-          "value": "31.917"
+          "value": "3.50",
+          "valueType": "decimal"
         }
-      ]
+      ],
+      "value": {
+        "hours": "3.50",
+        "level": "Casual"
+      },
+      "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
-    "userGamingCategoryPieChartByHoursSteam": {
+    "sumHoursPlayedInIGDBCategoryPieChartSteam": {
       "displayType": "charts",
       "valueType": "array",
       "items": [
         {
-          "key": "gameMode",
-          "displayKey": "Game Mode",
-          "displayType": "chart",
-          "valueType": "array",
-          "items": [
-            {
-              "value": "7.80",
-              "valueType": "decimal",
-              "name": "Single player"
-            },
-            {
-              "value": "3.60",
-              "valueType": "decimal",
-              "name": "Multiplayer"
-            },
-            {
-              "value": "1.70",
-              "valueType": "decimal",
-              "name": "Co-operative"
-            }
-          ]
-        },
-        {
           "key": "genre",
           "displayKey": "Genre",
-          "displayType": "chart",
-          "valueType": "array",
           "items": [
             {
-              "value": "5.75",
               "valueType": "decimal",
-              "name": "Simulator"
+              "value": "3.50",
+              "name": "Strategy",
+              "slug": "strategy"
             },
             {
-              "value": "3.85",
               "valueType": "decimal",
-              "name": "Indie"
+              "value": "3.50",
+              "name": "MOBA",
+              "slug": "moba"
             },
             {
-              "value": "3.75",
               "valueType": "decimal",
-              "name": "Adventure"
+              "value": "0.00",
+              "name": "Card & Board Game",
+              "slug": "card-and-board-game"
             },
             {
-              "value": "2.15",
               "valueType": "decimal",
-              "name": "Arcade"
-            },
-            {
-              "value": "2.05",
-              "valueType": "decimal",
-              "name": "Shooter"
-            },
-            {
-              "value": "2.05",
-              "valueType": "decimal",
-              "name": "Role-playing (RPG)"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "Strategy"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "Turn-based strategy (TBS)"
+              "value": "0.00",
+              "name": "Indie",
+              "slug": "indie"
             }
-          ]
+          ],
+          "displayType": "chart",
+          "valueType": "array"
         },
         {
-          "key": "theme",
-          "displayKey": "Theme",
-          "displayType": "chart",
-          "valueType": "array",
+          "key": "gameMode",
+          "displayKey": "Game Mode",
           "items": [
             {
-              "value": "3.75",
               "valueType": "decimal",
-              "name": "Science fiction"
+              "value": "3.50",
+              "name": "Multiplayer",
+              "slug": "multiplayer"
             },
             {
-              "value": "3.75",
               "valueType": "decimal",
-              "name": "Action"
+              "value": "3.50",
+              "name": "Co-operative",
+              "slug": "co-operative"
             },
             {
-              "value": "3.75",
               "valueType": "decimal",
-              "name": "Sandbox"
+              "value": "0.00",
+              "name": "Single player",
+              "slug": "single-player"
             },
             {
-              "value": "2.15",
               "valueType": "decimal",
-              "name": "Business"
-            },
-            {
-              "value": "2.05",
-              "valueType": "decimal",
-              "name": "Open world"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "Fantasy"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "Historical"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "4X (explore, expand, exploit, and exterminate)"
+              "value": "0.00",
+              "name": "Massively Multiplayer Online (MMO)",
+              "slug": "massively-multiplayer-online-mmo"
             }
-          ]
+          ],
+          "displayType": "chart",
+          "valueType": "array"
         },
         {
           "key": "playerPersepective",
           "displayKey": "Player Persepective",
-          "displayType": "chart",
-          "valueType": "array",
           "items": [
             {
-              "value": "3.75",
               "valueType": "decimal",
-              "name": "Third person"
+              "value": "3.50",
+              "name": "Third person",
+              "slug": "third-person"
             },
             {
-              "value": "2.15",
               "valueType": "decimal",
-              "name": "Text"
-            },
-            {
-              "value": "2.15",
-              "valueType": "decimal",
-              "name": "Side view"
-            },
-            {
-              "value": "2.05",
-              "valueType": "decimal",
-              "name": "First person"
-            },
-            {
-              "value": "1.90",
-              "valueType": "decimal",
-              "name": "Bird view / Isometric"
+              "value": "3.50",
+              "name": "Bird view / Isometric",
+              "slug": "bird-view-slash-isometric"
             }
-          ]
+          ],
+          "displayType": "chart",
+          "valueType": "array"
+        },
+        {
+          "key": "theme",
+          "displayKey": "Theme",
+          "items": [
+            {
+              "valueType": "decimal",
+              "value": "3.50",
+              "name": "Action",
+              "slug": "action"
+            },
+            {
+              "valueType": "decimal",
+              "value": "3.50",
+              "name": "Fantasy",
+              "slug": "fantasy"
+            },
+            {
+              "valueType": "decimal",
+              "value": "3.50",
+              "name": "Warfare",
+              "slug": "warfare"
+            },
+            {
+              "valueType": "decimal",
+              "value": "0.00",
+              "name": "Comedy",
+              "slug": "comedy"
+            },
+            {
+              "valueType": "decimal",
+              "value": "0.00",
+              "name": "Survival",
+              "slug": "survival"
+            },
+            {
+              "valueType": "decimal",
+              "value": "0.00",
+              "name": "Party",
+              "slug": "party"
+            }
+          ],
+          "displayType": "chart",
+          "valueType": "array"
         }
       ],
-      "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c"
+      "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
-    "topGameCategoryHourSteam": {
-      "value": "17.30",
+    "sumHoursPlayedInTopIGDBCategorySteam": {
+      "value": "14.00",
       "valueType": "decimal",
       "displayType": "string",
-      "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c"
+      "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
-    "avgMonthSpendingSteam": {
+    "avgMonthlySpendingSteam": {
       "displayType": "summary",
       "valueType": "array",
       "items": [
         {
-          "value": "7.80",
-          "valueType": "decimal",
-          "name": "Jan"
+          "name": "Jan",
+          "value": "0.00",
+          "valueType": "decimal"
         },
         {
-          "value": "3.60",
-          "valueType": "decimal",
-          "name": "Mar"
+          "name": "Feb",
+          "value": "0.00",
+          "valueType": "decimal"
         },
         {
-          "value": "1.70",
-          "valueType": "decimal",
-          "name": "Dec"
+          "name": "Mar",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Apr",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "May",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Jun",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Jul",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Aug",
+          "value": "22.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Sep",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Oct",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Nov",
+          "value": "0.00",
+          "valueType": "decimal"
+        },
+        {
+          "name": "Dec",
+          "value": "638.00",
+          "valueType": "decimal"
         }
       ],
-      "sgxAttestationFileId": "ecae86bc6a8c4014b32bb62d201f628c"
+      "sgxAttestationFileId": "d816c55fae3c4d1399034cd4ed7df54a"
     }
   }
 }
