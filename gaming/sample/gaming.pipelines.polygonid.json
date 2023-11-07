@@ -12,25 +12,25 @@
         "displayKey": "Genre",
         "strategy": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Strategy",
           "slug": "strategy"
         },
         "moba": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "MOBA",
           "slug": "moba"
         },
         "card-and-board-game": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Card & Board Game",
           "slug": "card-and-board-game"
         },
         "indie": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Indie",
           "slug": "indie"
         }
@@ -40,25 +40,25 @@
         "displayKey": "Game Mode",
         "multiplayer": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Multiplayer",
           "slug": "multiplayer"
         },
         "co-operative": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Co-operative",
           "slug": "co-operative"
         },
         "single-player": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Single player",
           "slug": "single-player"
         },
         "massively-multiplayer-online-mmo": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Massively Multiplayer Online (MMO)",
           "slug": "massively-multiplayer-online-mmo"
         }
@@ -68,13 +68,13 @@
         "displayKey": "Player Persepective",
         "third-person": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Third person",
           "slug": "third-person"
         },
         "bird-view-slash-isometric": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Bird view / Isometric",
           "slug": "bird-view-slash-isometric"
         }
@@ -84,37 +84,37 @@
         "displayKey": "Theme",
         "action": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Action",
           "slug": "action"
         },
         "fantasy": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Fantasy",
           "slug": "fantasy"
         },
         "warfare": {
           "valueType": "decimal",
-          "value": "3.50",
+          "value": 3.5,
           "name": "Warfare",
           "slug": "warfare"
         },
         "comedy": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Comedy",
           "slug": "comedy"
         },
         "survival": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Survival",
           "slug": "survival"
         },
         "party": {
           "valueType": "decimal",
-          "value": "0.00",
+          "value": 0,
           "name": "Party",
           "slug": "party"
         }
@@ -122,58 +122,58 @@
       "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
     "sumHoursPlayedInTopIGDBCategorySteam": {
-      "value": "14.00",
+      "value": 14,
       "valueType": "decimal",
       "displayType": "string",
       "sgxAttestationFileId": "8e39a2a45fe54bf6b83c4ab881c159ea"
     },
     "avgMonthlySpendingSteam": {
       "Jan": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Feb": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Mar": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Apr": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "May": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Jun": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Jul": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Aug": {
-        "value": "22.00",
+        "value": 22,
         "valueType": "decimal"
       },
       "Sep": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Oct": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Nov": {
-        "value": "0.00",
+        "value": 0,
         "valueType": "decimal"
       },
       "Dec": {
-        "value": "638.00",
+        "value": 638,
         "valueType": "decimal"
       },
       "sgxAttestationFileId": "d816c55fae3c4d1399034cd4ed7df54a"
